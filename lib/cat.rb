@@ -1,3 +1,4 @@
+require 'pry'
 class Cat
   attr_reader :name 
   attr_accessor :owner, :mood 
@@ -11,6 +12,7 @@ class Cat
 
   def self.all 
     @@all
+    binding.pry 
   end 
   
 end
