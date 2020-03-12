@@ -1,3 +1,15 @@
 class Cat
-  # code goes here
+
+  
 end
+
+  # @@all=[]
+  # attr_accessor :name, :owner
+  # def initialize(name, owner)
+  #   @name = name 
+  #   @owner = owner 
+  # end 
+  
+  # def Cat.all 
+  #   @all
+  # end 
